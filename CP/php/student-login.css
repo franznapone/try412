@@ -1,0 +1,93 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+h1 {
+	text-transform: uppercase;
+	margin: 1rem 0rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+h3 {
+	text-transform: uppercase;
+}
+
+.bgimage {
+	margin-top: 2rem;
+	height: 6rem;
+	width: 6rem;
+}
+.container {
+	height: 30rem;
+	display: flex;
+	justify-content: center;
+	margin: 5rem auto;
+	text-align: center;
+}
+.right-section {
+	width: 30rem;
+	background-color: rgba(41, 36, 36, 0.2);
+	border-radius: 2rem;
+}
+
+input {
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 60%;
+	height: 2rem;
+	border-style: none;
+	border-radius: 5px;
+	margin-bottom: 1rem;
+}
+.btn {
+	background-color: maroon;
+	color: white;
+	margin-bottom: 0.5rem;
+	border-style: solid;
+	padding: 0.3rem 3rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	transition: all 0.2s linear;
+}
+.btn2 {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+.button {
+	width: 9rem;
+	height: 2rem;
+	color: white;
+	background-color: maroon;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-bottom: 0.6rem;
+	margin-top: 0.2rem;
+}
+
+.forgot {
+	margin-top: 0.1rem;
+	margin-bottom: 2rem;
+}
+
+.forgot a {
+	color: black;
+}
+
+#signup {
+	background-color: maroon;
+	color: white;
+	padding: 0.48rem 2.8rem;
+	text-decoration: none;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}

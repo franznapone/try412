@@ -1,0 +1,23 @@
+TDP inputs para sa admin (DB at HTML TAGS)
+
+-hidden --scholar number
+First Name - varchar(50) - TEXT
+Middle Name - varchar(50) - TEXT
+Last Name - varchar(50) - TEXT
+Sex - varchar(5) - RADIOBOX (M - F)
+Birthdate - date(191) - DATE
+Student Number - varchar(15) - TEXT
+Course - int(10) - LABEL SELECT OPTION
+Year Level - int(5) - LABEL SELECT OPTION
+Address - varchar(256) - TEXT AREA
+Barangay - int(10) - LABEL SELECT OPTION
+-hidden -- zipcode - int(4) - TEXT
+Disability - varchar(5) - RADIOBOX (Yes or No)
+Contact Number - int(20) - TEL
+Email - varchar(50) - EMAIL
+-hidden -- HEI UII -varchar(50) - TEXT
+-hidden -- HEI name -varchar(50) - TEXT
+-hidden --chedtdp partylist name -varchar(50) - TEXT
+-hidden --representatives name -varchar(50) - TEXT
+CHED-TDP award number -varchar(50) - TEXT
+GWA - decimal(1,2) - NUMBER

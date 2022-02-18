@@ -1,0 +1,53 @@
+=================================
+DASHBOARD +idadagdag+
+-------------recognized by admin scholars(approved by application from homepage or sariling input ng admin)
+> current scholars with incomplete or complete requires and are pending TO BE REVIEWED (incomplete)(to be approved) (checking of requirements)
+> current number of scholars TDP,TES(mga kompleto at naaprubahan na)(display lang ng number)
+
+------------applicants from homepage, not recognized
+> applicant application review(apply for TDP)*(may button na kapag pinindot makakakita ng parang interface ng TDP tapos TES, kapag dinecline magiistay lang yung application dito, bale may status tapos date ng application)*(kapag naapproved saka lang imamanual input ng admin yung details kasama nung ibang ilalagay niya na kulang)*(APPROVE OR DECLINE)
+
+=================================
+TDP +kailangan matapos+
+|Mga makikita|
+|*may functions ng sorting depende sa bawat category ascending and descending alphabetical and alphanumerical*|
+- award number
+- name of scholar
+- course
+- section
+- year level
+- student number
+- status of application (incomplete, pending, approved)*(maieedit lang kapag ongoing ang scholarship status)
+- scholarship status (ongoing, terminated) (kapag terminated ang status hindi masasama sa sorting)
+
+> BUTTON to edit scholar details (eto na yung manipulation) (dito rin makikita yung mga requirements na pinasa)
+
+=================================
+TES +kailangan matapos+
+|Mga makikita|
+|*may functions ng sorting depende sa bawat category ascending and descending alphabetical and alphanumerical*|
+- award number
+- name of scholar
+- course
+- section
+- year level
+- student number
+- status of application (incomplete, pending, approved)*(maieedit lang kapag ongoing ang scholarship status)
+- scholarship status (ongoing, terminated) (kapag terminated ang status hindi masasama sa sorting)
+
+> BUTTON to edit scholar details (eto na yung manipulation) (dito rin makikita yung mga requirements na pinasa)
+
+=================================
+LIQUIDATION +idadagdag+
+|Lahat ng kompleto nandito|
+Name
+Award Number
+Scholarship Program (TDP o TES)
+Status(nakakuha naba ng pera o hindi pa)
+
+=================================
+Past scholars +additional feature+
+(mapupunta dito yung mga naterminate na na scholars)
+
+same ng interface ng TDP at TES
+additional columns

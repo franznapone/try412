@@ -1,0 +1,19 @@
+
+scholarship offered and requirements ----nasa isko.docx details----
+(scholarshipsoffered.php)
+
+how to apply - (howtoapply.php) ----wala pa----
+
+apply now (signupstudentHOME.php) - gawan design
+
+FAQ (FAQ.php) ----nasa isko.docx details----
+
+Contact us - yung nasa baba ng homepage itanong mo sa docu kung ano ilalagay para meron na nakalagay
+
+Signup ng gusto magapply (signupstudentHOME.php) - gawan design
+
+---------------------------------------------------------
+
+admin interface additional - Dashboard, liquidation at Past Scholars 
+
+student interface additional -Scholarship status at Liquidation

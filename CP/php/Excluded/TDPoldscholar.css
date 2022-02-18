@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border: 0.2px solid black;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  color: maroon;
+}
+.header-container img {
+  margin-right: 10px;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 6.92rem;
+  height: 100%;
+  width: 345px;
+  background-color: rgb(241, 231, 231);
+  border: 0.2px solid black;
+  z-index: 1;
+}
+.sidebar-menu {
+  padding-top: 100px;
+}
+
+.sidebar-menu a {
+  display: block;
+  color: rgb(189, 0, 0);
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 7rem;
+  background-color: white;
+  border-bottom: 0.2px solid black;
+}
+.sidebar-menu ul a i {
+  color: maroon;
+  padding-left: 2rem;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.sidebar-menu .border-top {
+  border-top: 0.2px solid black;
+}
+ul li a:hover {
+  padding-left: 3rem;
+}
+
+/*Requirement to be Submitted*/
+main {
+  margin-left: 345px;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 310px;
+  margin: 5rem auto;
+  line-height: 3rem;
+  border: 1px solid black;
+}
+.container-header {
+  background-color: rgb(241, 231, 231);
+  text-transform: uppercase;
+}
+.container-header h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.cor {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 3rem;
+}
+.cor h5 {
+  font-size: 18px;
+}
+.submit {
+  text-align: right;
+}
+.btnsubmit {
+  padding: 5px 25px;
+  margin: 40px 20px;
+  color: rgb(255, 255, 255);
+  background-color: maroon;
+  border: none;
+}
+
+button {
+  padding: 2.5px;
+  border-radius: 4px;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+i {
+  margin-right: 10px;
+}
+.logout {
+  text-align: right;
+}
+.btnlogout {
+  padding: 5px 25px;
+  color: white;
+  background-color: maroon;
+  margin: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+}
