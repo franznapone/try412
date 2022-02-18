@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: "Roboto", sans-serif;
+}
+header {
+	padding: 20px;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	border: 0.2px solid black;
+}
+.header-container {
+	display: flex;
+	align-items: center;
+	color: maroon;
+}
+.header-container img {
+	margin-right: 10px;
+}
+
+/* Side bar-menu */
+
+.sidebar {
+	position: fixed;
+	left: 0;
+	top: 6.92rem;
+	height: 100%;
+	width: 345px;
+	background-color: rgb(241, 231, 231);
+	border: 0.2px solid black;
+	z-index: 1;
+}
+
+.sidebar-menu a {
+	display: block;
+	color: rgb(189, 0, 0);
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 6.85rem;
+	background-color: white;
+	border-bottom: 0.2px solid black;
+}
+.sidebar-menu ul a i {
+	color: maroon;
+	padding-left: 2rem;
+	font-size: 1.5rem;
+	margin-right: 0.5rem;
+}
+.sidebar-menu .border-top {
+	border-top: 0.2px solid black;
+}
+ul li a:hover {
+	transition: all 0.3s ease 0s;
+	padding-left: 3rem;
+}
+
+/*Requirement to be Submitted*/
+main {
+	margin-left: 345px;
+}
+.container {
+	background-color: rgb(255, 255, 255);
+	width: 97%;
+	height: 490px;
+	margin: 0.5rem auto;
+	line-height: 3rem;
+	border: 1px solid black;
+}
+.logout {
+	text-align: right;
+}
+
+.homepagebtn {
+	padding: 5px;
+	color: white;
+	background-color: maroon;
+	margin-right: 10px;
+	border: none;
+	cursor: pointer;
+}
+.btnlogout {
+	padding: 5px;
+	color: white;
+	background-color: maroon;
+	margin-right: 15px;
+	border: none;
+	cursor: pointer;
+}

@@ -1,0 +1,56 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 1rem 0rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.bgimage {
+	margin-top: 2rem;
+	height: 6rem;
+	width: 6rem;
+}
+.container {
+	height: 29rem;
+	display: flex;
+	justify-content: center;
+	margin: 6rem 0px;
+	text-align: center;
+}
+.right-section {
+	width: 25rem;
+	background-color: rgba(41, 36, 36, 0.2);
+	border-radius: 2rem;
+}
+
+.login,
+div {
+	margin: 15px 0px;
+}
+button {
+	padding: 8px 25px;
+	font-size: 15px;
+	font-weight: bold;
+	width: 20rem;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+
+.button1 {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px 6px;
+	color: white;
+	background-color: maroon;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
